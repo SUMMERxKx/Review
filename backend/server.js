@@ -14,6 +14,6 @@ app.use(express.json());
 
 app.use("/api/auth", authRoutes);
 app.use("/api/reviews", reviewRoutes);
-
+  
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
