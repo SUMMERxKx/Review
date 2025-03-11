@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "start": "node backend/server.js",
-  "dev": "nodemon backend/server.js",
-  "lint": "eslint .",
-  "test": "jest",
-  "build": "npm install",
-  "serve": "node server.js"
-},
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "npm install",
+    "serve": "node backend/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.2.1",
     "axios": "^1.8.1",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
@@ -25,6 +26,7 @@
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.1.9"
   }
 }
